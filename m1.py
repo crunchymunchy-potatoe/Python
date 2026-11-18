@@ -33,5 +33,25 @@ total_discount = discount * count
 clean_payment = total_payment - total_discount
 
 #get payment
-print("total payment : " + str(total_payment))
+print("Total payment : " + str(total_payment))
 print("Clean Payment : " + str(clean_payment))
+
+# burger-store
+print ( """" Burger Store Pricelist :
+    1. Burger Beef : 20
+    2. Burger Chicken : 25
+    3. Burger Fish : 30 """)
+
+menu_price = input ("Menu Price : ")
+amount = input ("Amount : ")
+bill =  int(menu_price)* int(amount)
+print("you need to pay $" + str(bill))
+    
+# Student data
+
+first_name = input ("Your Name : ")
+major = input ("Your Major : ") 
+class_code = input ("Your Class :") 
+
+print("Student Information : " + first_name + major + class_code)
+print(f"Student Information : {first_name} {major} {class_code}" )
